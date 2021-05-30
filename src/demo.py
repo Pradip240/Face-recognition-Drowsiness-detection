@@ -119,7 +119,7 @@ class LCMS:
         thread_sound = threading.Thread(target=beepy.beep, args=(6,), daemon=True) # play alarm sound when running
                                 
         # capture frames from webcam
-        camera = Camera_cv()
+        camera = Camera()
         
         image_holder = st.empty()
 
